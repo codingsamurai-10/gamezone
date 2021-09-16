@@ -1,11 +1,16 @@
 import React from "react";
 import Home from "./screens/Home";
 import AppLoading from "expo-app-loading";
-import { useFonts, Inter_900Black } from "@expo-google-fonts/inter";
+import {
+  useFonts,
+  Nunito_700Bold,
+  Nunito_400Regular,
+} from "@expo-google-fonts/nunito";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
-    Inter_900Black,
+    Nunito_400Regular,
+    Nunito_700Bold,
   });
 
   if (!fontsLoaded) {

@@ -6,7 +6,7 @@ const globalStyles = StyleSheet.create({
     flex: 1,
   },
   titleText: {
-    fontFamily: "Inter_900Black",
+    fontFamily: "Nunito_700Bold",
     fontSize: 18,
     color: "#333",
   },
