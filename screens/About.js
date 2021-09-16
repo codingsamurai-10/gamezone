@@ -5,7 +5,7 @@ import globalStyles from '../styles/global'
 const About = () => {
     return (
         <View style={globalStyles.container}>
-            <Text>About screen</Text>
+            <Text style={globalStyles.titleText}>About screen</Text>
         </View>
     )
 }
