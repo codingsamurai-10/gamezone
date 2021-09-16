@@ -9,7 +9,7 @@ const About = () => {
     )
 }
 
-export default Home
+export default About;
 
 const styles = StyleSheet.create({
     container: {

@@ -9,7 +9,7 @@ const ReviewDetails = () => {
     )
 }
 
-export default Home
+export default ReviewDetails;
 
 const styles = StyleSheet.create({
     container: {
